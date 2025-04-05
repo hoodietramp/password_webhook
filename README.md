@@ -1,4 +1,4 @@
-# 🔐 Chrome, Edge, Opera and Brave Password Recovery Tool 🔐
+# 🔐 Browser Password Recovery Tool 🔐
 
 ## 📱 Overview
 
